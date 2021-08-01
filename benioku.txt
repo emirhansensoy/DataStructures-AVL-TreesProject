@@ -1,0 +1,5 @@
+veri.txt makefile'ın yanında bulunduğundan program bin klasörü içindeki exe'den çalıştırılmak istendiğinde problem oluşacaktır.
+Bunun sebebi ise exe'nin veri.txt'yi bulunduğu dosya içinde aramasıdır.
+Eğer programı exe'den çalıştırmak istiyorsak veri.txt'yi bin klasörü içine atmamız gerekir.
+
+Program ana klasörün komut satırında mingw32-make yazılarak sorunsuz bir şekilde çalıştırılabir.
